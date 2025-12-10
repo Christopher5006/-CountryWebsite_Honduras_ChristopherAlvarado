@@ -1,3 +1,11 @@
+.conatainer{
+  display:flex;
+}
+
+#banner .container{
+  justify-content: center;
+  align-items: center;
+}
 nav{
   padding:5px
 }
@@ -25,11 +33,13 @@ nav a:hover {
 }
 
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
-.banner {
+#banner {
   background-color: blue;
   color: white;
   padding: 20px;
   text-align: center;
+  height: 150px;
+  
 }
 
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
